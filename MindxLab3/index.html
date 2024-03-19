@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đoán xem</title>
+        <link href="Mindx3style.css" rel="stylesheet">
+        <script src="jsFile\Mindx3script.js"></script>
+    </head>
+    <body>
+        <p id="time">Time left: 60s</p>
+        <header> ⭐ Guess the word ⭐ </header>
+        <h2 id="status">Start your game by typing to the input below</h2>
+        <p id="guess">You have 3 guess(es) remaining</p>
+        <script src="jsFile\innitializeBoxes.js"></script>
+        <label for="fillChar">Type one letter</label>
+        <input id="fillChar" type="text" maxlength="1">
+        <button>Guess</button>
+        <script src="jsFile\getInput.js" type="module"></script>
+        <script src="jsFile\losingGame.js" type="module"></script>
+    </body>
+</html>
